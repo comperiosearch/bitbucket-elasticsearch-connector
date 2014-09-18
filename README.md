@@ -23,8 +23,8 @@ OAuth needs a key and secret together these are known as an OAuth consumer. You 
 
 ### Configuration files
 
-    bitbucket.conf
-    elasticsearch.conf
+* bitbucket.conf
+* elasticsearch.conf
 
 In [bitbucket.conf](bitbucket.conf) you can set the keys for the API (as explained above) and you also need to change the [USERNAME] in "repos\_endpoint" to be your username or the team's username.
 
