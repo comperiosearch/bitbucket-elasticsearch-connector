@@ -19,7 +19,7 @@ OAuth needs a key and secret together these are known as an OAuth consumer. You 
 3. Click OAuth under ACCESS MANAGEMENT.
 4. Click the Add consumer button (Give it a name, description, etc.).
 
-**Add the Key and Secret to [bitbucket.conf](https://bitbucket.org/comperio/bitbucket-elasticsearch-connector/src/master/bitbucket.conf?at=master)
+**Add the Key and Secret to [bitbucket.conf](bitbucket.conf)
 **
 
 ### Configuration files
@@ -27,9 +27,9 @@ OAuth needs a key and secret together these are known as an OAuth consumer. You 
     bitbucket.conf
     elasticsearch.conf
 
-In [bitbucket.conf](https://bitbucket.org/comperio/bitbucket-elasticsearch-connector/src/master/bitbucket.conf?at=master) you can set the keys for the API (as explained above) and you also need to change the [USERNAME] in "repos\_endpoint" to be your username or the team's username.
+In [bitbucket.conf](bitbucket.conf) you can set the keys for the API (as explained above) and you also need to change the [USERNAME] in "repos\_endpoint" to be your username or the team's username.
 
-In [elasticsearch.conf](https://bitbucket.org/comperio/bitbucket-elasticsearch-connector/src/master/elasticsearch.conf?at=master) you can set the elasticsearch host address, index name and maximum size for files to be indexed (this max size will only affect whether or not to index the content of the file, all other fields will be indexed).
+In [elasticsearch.conf](elasticsearch.conf) you can set the elasticsearch host address, index name and maximum size for files to be indexed (this max size will only affect whether or not to index the content of the file, all other fields will be indexed).
 
 
 How to run
