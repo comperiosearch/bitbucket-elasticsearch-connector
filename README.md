@@ -19,8 +19,7 @@ OAuth needs a key and secret together these are known as an OAuth consumer. You 
 3. Click OAuth under ACCESS MANAGEMENT.
 4. Click the Add consumer button (Give it a name, description, etc.).
 
-**Add the Key and Secret to [bitbucket.conf](bitbucket.conf)
-**
+**Add the Key and Secret to [bitbucket.conf](bitbucket.conf)**
 
 ### Configuration files
 
