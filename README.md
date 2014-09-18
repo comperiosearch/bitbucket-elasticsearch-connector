@@ -33,9 +33,9 @@ In [elasticsearch.conf](elasticsearch.conf) you can set the elasticsearch host a
 
 How to run
 --------------
-
+```
     python main.py index
-
+```
 
 ### Running modes
     index
