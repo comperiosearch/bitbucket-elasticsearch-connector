@@ -1,0 +1,11 @@
+{ 
+	    "analysis":{
+		"analyzer":{
+		    "autocomplete":{
+			"type":"custom",
+			"tokenizer":"standard",
+			"filter":[ "standard", "lowercase", "stop", "edgeNGram" ]
+		    }
+		}
+	    }
+}

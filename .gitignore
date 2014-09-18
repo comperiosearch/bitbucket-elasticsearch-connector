@@ -1,0 +1,6 @@
+.bitbucketHistory
+bitbucket.conf
+*~
+*pyc
+/logs/*
+bitbucket-connector.log
