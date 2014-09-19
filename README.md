@@ -1,4 +1,4 @@
-Bitbucket to elasticsearch connector written in Python. It supports indexing files and repos, updates and deletions.
+Bitbucket to elasticsearch connector written in Python. It supports indexing files and repos, updates and deletions. Read more on our blog: http://blog.comperiosearch.com/blog/2014/09/18/bitbucket-elasticsearch-connector/
 
 Prerequisites
 --------------
